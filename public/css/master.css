@@ -1,0 +1,46 @@
+/* public/css/master.css */
+.user-form {
+  width: 400px;
+}
+body {
+  /* background: #6EE3F7; */
+  font-family: 'Open Sans', sans-serif;
+}
+.breadcrumb-item {
+  font-size: 0.8em !important;
+}
+.ellipsis{
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* 1 */
+}
+
+.board-table {
+  table-layout: fixed;
+}
+.board-table .date {
+  width: 100px;
+}
+
+.post-body{
+  white-space: pre-line; /* 2 */
+}
+.post-info{
+  font-size: 0.8em;
+}
+
+.myColor{
+  background-color: red;
+}
+
+.post-index-tool {
+  max-width: 450px;
+}
+.post-index-tool input[type='text']{
+  max-width: 130px;
+}
+.highlighted {
+  background-color: yellow;
+}
