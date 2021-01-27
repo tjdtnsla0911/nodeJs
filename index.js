@@ -16,7 +16,7 @@ mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
 //mongoose.connect(process.env.MONGO_DB);
-mongoose.connect('mongodb+srv://root:bitc5600@cluster0.brekq.mongodb.net/<dbname>?retryWrites=true&w=majority'); // 2
+mongoose.connect('당신의 몽고디비의 커넥터를 적으세요!'); // 2
 var db = mongoose.connection;
 db.once('open', function() {
   console.log('DB connected');
